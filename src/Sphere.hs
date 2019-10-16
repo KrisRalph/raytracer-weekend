@@ -19,6 +19,6 @@ intersects s r | d > 0 = ((-b) - sqrt d) / (2.0*a)
           c = dot oc oc - radius s**2
           d = b*b - 4*a*c
 
--- todo tomorrow make things actually random
+-- todo make things actually random
 --randomInUnitSphere :: Sphere -> Float -> Float -> Float -> Vec3f
 --randomInUnitSphere sph r

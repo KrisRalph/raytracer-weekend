@@ -13,6 +13,7 @@ colour r | Sphere.intersects s r > 0 = intersection s r
          | otherwise = drawBackground r
   where s = Sphere (Vec3f 0 0 (-1)) 0.5
         p = Sphere (Vec3f 0 100.5 0) 100
+        -- Unfortunately I broke the plane by trying to fit a typeclass onto it.
         --p = Plane (Vec3f 0 0.25 0) (Vec3f 0 1 0)
 
 intersection :: Intersectable i => i -> Ray -> Vec3f
