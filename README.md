@@ -15,3 +15,4 @@ Didn't ever get around to finishing it.
 # Pretty output picture
 ### No, I can't angle a plane correctly thank you.
 ![](output.png)
+![](even_neater.png)
